@@ -1,0 +1,195 @@
+# ===========================================================================
+# Multilingual file for the TOS 7 Docker application "transmissiondocker".
+# File name MUST be: <appid>.lang.  23-language superset (14 required by TOS).
+# The App Center picks the text matching the user's device language;
+# untranslated nodes fall back to English, which the official guide allows.
+# Fields: name (app title), auth (upstream author), descript (up to 512
+# chars), release_note, important (up to 512 chars).
+# Translations come from tosapp.json "translations"; run
+#   tosdocker lang <app>          to re-render this file
+#   tosdocker translate <app>     to see what still needs translating
+# ===========================================================================
+[en-us]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[zh-cn]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "习惯打卡与连续天数统计，界面简洁。"
+release_note = "1. First release."
+important    = "首次使用请打开网页完成初始化。数据保存在 DockerAppData/beaverhabitsdocker，重启和升级不会丢失。容器以 uid 1000 运行，挂载目录需对该用户可读。需要 DockerEngine；Docker Hub 不可达时先配置镜像加速。卸载并删除数据前请备份。局域网内为 HTTP。"
+
+[zh-hk]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "习惯打卡与连续天数统计，界面简洁。"
+release_note = "1. First release."
+important    = "首次使用請開啟網頁完成初始化。資料保存在 DockerAppData/beaverhabitsdocker，重新啟動和升級不會遺失。容器以 uid 1000 運行，掛載目錄需對該使用者可讀。需要 DockerEngine；Docker Hub 不可達時先設定鏡像加速。解除安裝並刪除資料前請備份。區域網路內為 HTTP。"
+
+[fr-fr]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[de-de]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[it-it]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[es-es]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[hu-hu]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[ja-jp]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[ko-kr]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[pl-pl]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[ru-ru]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[tr-tr]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[pt-pt]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[ar-sa]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[cs-cz]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[he-il]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[id-id]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[nb-no]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[nl-nl]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[sv-se]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[th-th]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
+[vi-vn]
+name         = "Transmission"
+auth         = "Transmission"
+version      = "@@VERSION@@"
+descript     = "Transmission is a fast BitTorrent client with a web UI, RPC API and magnet/torrent support. This package runs the LinuxServer Docker Hub image as a non-root container with a wrapper that starts transmission-daemon directly."
+release_note = "1. First release."
+important    = "Open http://<NAS-IP>:8100/transmission/web/ for the web UI. Downloaded files go to /Volume1/DockerAppData/transmissiondocker/downloads/ and configuration lives next to it; both survive restarts and updates. The container runs as uid 1000. Needs DockerEngine; configure a registry mirror if Docker Hub is unreachable. Back up the data folder before uninstalling with data removal. Plain HTTP on the LAN; the RPC whitelist is disabled because the port is only exposed on your LAN."
+
